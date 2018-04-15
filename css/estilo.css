@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #000
+}
+/* Global */
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin:0;
+	padding: 0;
+}
+
+.button_1{
+	height: 37px;
+	background:#6b82c7;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:white;
+}
+
+header .box{
+	padding-left: 120px;
+	margin-top: -15px;
+}
+
+header {
+	background: #000000;
+	color: #ffffff;
+	padding-top: 10px;
+	min-height: 70px;
+	border-bottom: #ff3333 2px solid;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	box-shadow: 0 10px 20px black;
+	
+}
+
+header a{
+	color: #ffffff;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 50px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: -60px;
+	margin-right: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight:bold;
+}
+
+header a:hover{
+	color: #ffffff;
+	font-weight:bold;
+}
+
+
+/*Siguiente seccion*/
+
+#banner {
+	width: 100%;
+	min-height: 400px;
+	background:url(../img/haber.png) no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	background-position: center;
+	color: #ffffff;
+	margin-top: 100px;
+}
+
+.banner-inner {
+	margin: 0 auto;
+}
+ .one-fourth{
+ 	width: 25%;
+ 	float: left;
+ 	text-align: center;
+ 	color: #ffffff;
+ 	font-family:  'Roboto Condensed', sans-serif;
+ 	font-size: 10px;
+ 	letter-spacing:4px;
+ 	padding: 2% 0 2% 0
+ }
+
+#banner2 {
+	width: 100%;
+	min-height: 400px;
+	background:url(../img/wallbalo.jpg) no-repeat;
+	background-attachment: fixed;
+	text-align: center;
+	background-position: center;
+	color: #ffffff;
+	margin-top: 0;
+
+}
+
+#seccion1 {
+	background-color: #ff3333;
+}
+#seccion2 {
+	background-color: #cb2b2b;
+}#seccion3 {
+	background-color: #921e1e;
+}#seccion4 {
+	background-color: #4d0f0f;
+}
+
+
+#noticias{
+	width: 100%;
+	padding: 15px;
+	color: #ffffff;
+	background: #000
+}
+
+#noticias h1{
+	float: left;
+}
+
+#noticias form{
+	float: right;
+	padding-top: 15px;
+}
+
+#noticias input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+
+
+#elementos {
+	margin-top: 20px;
+}
+
+#elementos .box{
+	float: left;
+	text-align: center;
+	width: 31.2%;
+	padding: 10px;
+	color: white;
+}
+
+
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color:#3366ff;
+	text-align: center;
+}
+
+footer .box {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
